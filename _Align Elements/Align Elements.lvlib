@@ -18,6 +18,8 @@
 		<Item Name="Distribute Objects.ctl" Type="VI" URL="../Distribute Objects.ctl"/>
 	</Item>
 	<Item Name="helper" Type="Folder">
+		<Item Name="AlignSelection.vi" Type="VI" URL="../AlignSelection.vi"/>
+		<Item Name="DistributeSelection.vi" Type="VI" URL="../DistributeSelection.vi"/>
 		<Item Name="show-hide incdec.vi" Type="VI" URL="../show-hide incdec.vi"/>
 	</Item>
 	<Item Name="typedefs" Type="Folder">
