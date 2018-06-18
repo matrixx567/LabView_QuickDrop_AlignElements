@@ -52,7 +52,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../build</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C16D45FB-783A-4A04-93D4-8B107677F9BA}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../build</Property>
@@ -80,7 +80,7 @@
 				<Property Name="DestinationName[0]" Type="Str">Destination Directory</Property>
 				<Property Name="IncludedItemCount" Type="Int">1</Property>
 				<Property Name="IncludedItems[0]" Type="Ref">/My Computer/Align Elements.lvlib</Property>
-				<Property Name="IncludedItems[1]" Type="Ref">/</Property>
+				<Property Name="IncludedItems[1]" Type="Ref"></Property>
 				<Property Name="IncludeProject" Type="Bool">false</Property>
 				<Property Name="Path[0]" Type="Path">../build/QuickDrop_AlignElements.zip</Property>
 				<Property Name="ZipBase" Type="Str">NI_zipbasevirtual</Property>
