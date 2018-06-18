@@ -4,7 +4,7 @@ A LabVIEW Quick-Drop (QD) plug-in for aligning a selection of elements.
 
 This plug-in is based on the existing [Align & Compress BD/FP Objects](https://forums.ni.com/docs/DOC-14469) plug-in. The plug-in was completely refactored and changes the handling and the keymap of the original plug-in.
 
-![Screenshot](../blob/master/screenshot.png)
+![Screenshot](../master/screenshot.png)
 
 ## Installation
 Place the content of the zip file in your `<LabVIEW>\resource\dialog\QuickDrop\plugins` folder.
