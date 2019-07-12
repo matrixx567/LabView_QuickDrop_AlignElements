@@ -1,55 +1,68 @@
 # LabView QuickDrop AlignElements
 
-A LabVIEW Quick-Drop (QD) plug-in for aligning a selection of elements.
+A LabVIEW Quick-Drop (QD) plug-in for aligning and distributing elements on afrontpanel or blockdiagram.
 
-This plug-in is based on the existing [Align & Compress BD/FP Objects](https://forums.ni.com/docs/DOC-14469) plug-in. The plug-in was completely refactored and changes the handling and the keymap of the original plug-in.
+This plug-in is based on the existing [Align & Compress BD/FP Objects](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Plugin-Align-Compress-BD-FP-Objects/gpm-p/3501021?profile.language=en) plug-in. The plug-in is completely refactored and changes the handling and the keymap of the original plug-in.
 
-![Screenshot](../master/screenshot.png)
+*Thanks to Jim for his incredible plug-in.*
+
+![Screenshot](../master/docs/screenshot.png)
+
+The design idea behind the usage of the plug-in is to simply handle the alignment using the left hand on the keyboard and the WSAD keys. Therefore you will be very fast to organize your elements on the VI.
 
 ## Installation
 Place the content of the zip file in your `<LabVIEW>\resource\dialog\QuickDrop\plugins` folder.
 
 ## Usage
 
-Select some elements on the frontpanel or the blockdiagram.
-Press `Ctrl+Space` `Ctrl+S` to open a small UI with alignment buttons next to the current mouse pointer position.
+At first you have to *select some elements*  either on the fronpanel or the blockdiagram of the VI.
 
-If a button is pressed the selection of elements will be aligned or distributed to the wanted choice.
-The panel can be closed using the window's close button or by pressing the ESC key.
+The Quick Drop plug-in uses the default shortcut `A`.
 
-It is also possible to align the elements with the WASD-keys
+There are three possible ways to act with the plug-in using the mouse or only the keyboard.
+
+### Using the mouse
+
+With the mouse you can simply act with the plugin
+
+Firstly press `CTRL+SPACE` to open the quick drop dialog, then press `CTRL+A` to open the plug-in dialog containing the alignment and distribution buttons. The different buttons can be pressed to move the objects. At the end the dialog can be closed by clicking on the close button in the corner or by pressing the `ESC` key.
+
+![Using the mouse](../master/docs/usage_mouse.gif)
+
+### Using the keyboard
+
+A faster way to handle this Quick Drop plug-in is by using the keyboard.
+
+After selecting some elements press `CTRL+SPACE` and `CTRL+A` to open the dialog window. Afterwards you can use one of the following keys to execute the wanted alignment:
+
 * `W`: Top
 * `S`: Bottom
 * `A`: Left
 * `D`: Right
 * `C`: Horizontal Center
 * `V`: Vertical Center
-If the alignment is controlled by the keys the panel will immediately be closed.
+* `Q`: Vertical Gap
+* `E`: Horizontal Gap
+
+After pressing a key for alignment the panel will immediatelly be closed.
+
+![Using the keyboard](../master/docs/usage_key.gif)
+
+If you move the mouse pointer over one of the buttons you will see the shortcuts for each operation. (Only some of the distribution elements can be controlled by key.)
+
+![Using the keyboard](../master/docs/tooltips.gif)
+
+### Using the Quick Drop combo box
+
+The last option to handle the plugin is based on Darren's [suggestions](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Plugin-Align-selected-elements/gpm-p/3833359/highlight/true#M1008).
+
+After selecting some elements open the Quick Drop dialog by pressing `CTRL+SPACE`. Insert one or more of the above characters into the combo box. Then press `CTRL+A`. The plug-in will immediatelly execute the alignment or distribution of the elements.
+
+![Using the combo box](../master/docs/usage_combo.gif)
+
+On of my favorites is to open the Quick Drop with `CTRL+SPACE`. Then insert `AQ` into the combo box and press `CTRL+A`. This will align the elements to the left and distribute it with an equal vertical gap. I use this to arrange the VI input and output elements on the blockdiagram.  
+
+![Using the combo box](../master/docs/usage_combo2.gif)
 
 ## Hints
-The plug-in is developed with LabVIEW 2016.
-
-The default shortcut for this plug-in is based on the key `S` because on key `A` I usually use the [Align front panel controls to connector pane pattern](https://forums.ni.com/docs/DOC-136239) plug-in.
-
-## License
-
-MIT License
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
+The plug-in is developed in LabVIEW 2017. The released ZIP file contains VIs that are converted to LabView 2016. If you have an older version of LabView you have to save the provided project to this older version by yourself.
