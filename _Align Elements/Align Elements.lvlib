@@ -21,8 +21,8 @@
 		<Item Name="AlignByKeyPress.vi" Type="VI" URL="../AlignByKeyPress.vi"/>
 		<Item Name="AlignSelection.vi" Type="VI" URL="../AlignSelection.vi"/>
 		<Item Name="DistributeSelection.vi" Type="VI" URL="../DistributeSelection.vi"/>
+		<Item Name="GetVisibleIncDec.vi" Type="VI" URL="../GetVisibleIncDec.vi"/>
 		<Item Name="ReadLVConfigOptions.vi" Type="VI" URL="../ReadLVConfigOptions.vi"/>
-		<Item Name="show-hide incdec.vi" Type="VI" URL="../show-hide incdec.vi"/>
 	</Item>
 	<Item Name="typedefs" Type="Folder">
 		<Item Name="AlignType.ctl" Type="VI" URL="../AlignType.ctl"/>
@@ -30,4 +30,5 @@
 	</Item>
 	<Item Name="Align &amp; Distribute UI.vi" Type="VI" URL="../Align &amp; Distribute UI.vi"/>
 	<Item Name="Align Elements.vi" Type="VI" URL="../../Align Elements.vi"/>
+	<Item Name="ShowHideIncDec.vi" Type="VI" URL="../ShowHideIncDec.vi"/>
 </Library>
