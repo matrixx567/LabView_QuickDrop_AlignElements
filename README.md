@@ -11,11 +11,12 @@ This plug-in is based on the existing [Align & Compress BD/FP Objects](https://f
 The design idea behind the usage of the plug-in is to simply handle the alignment using the left hand on the keyboard and the WSAD keys. Therefore you will be very fast to organize your elements on the VI.
 
 ## Installation
-Place the content of the zip file in your `<LabVIEW>\resource\dialog\QuickDrop\plugins` folder.
+
+The plug-in is published as a VIPM Community package. Search for `QuickDrop AlignElements` in the VI Package Manager and install it easily. Otherwise you can download the VIP package from the Release page and install it manually.
 
 ## Usage
 
-At first you have to *select some elements*  either on the fronpanel or the blockdiagram of the VI.
+At first you have to *select some elements*  either on the frontpanel or the blockdiagram of the VI.
 
 The Quick Drop plug-in uses the default shortcut `A`.
 
@@ -64,5 +65,21 @@ On of my favorites is to open the Quick Drop with `CTRL+SPACE`. Then insert `AQ`
 
 ![Using the combo box](../master/docs/usage_combo2.gif)
 
+## Numeric controls on the frontpanel
+
+Like the original plug-in the increment and decrement buttons of a numeric control will be hidden during alignment (based on [this idea exchange](https://forums.ni.com/t5/LabVIEW-Idea-Exchange/Align-objects-should-not-align-increment-decrement-buttons/idi-p/1050356?profile.language=en)).
+
+By default this behavior is activated. It is possible to deactivate it in the LabVIEW.ini.
+
+## Quick Drop Options
+
+You can control certain aspects of operation of this plug-in by setting the following LabVIEW.ini tokens:
+
+| Token                          | Default Value      | Description                                                |
+| ------------------------------ | ------------------ | ---------------------------------------------------------- |
+| QDAlignElements.HideIncDec     | True               | Hide Inc/Dec buttons of Numeric Controls during alignment. | 
+
+
 ## Hints
-The plug-in is developed in LabVIEW 2017. The released ZIP file contains VIs that are converted to LabView 2016. If you have an older version of LabView you have to save the provided project to this older version by yourself.
+
+The plug-in is developed with LabVIEW 2017.

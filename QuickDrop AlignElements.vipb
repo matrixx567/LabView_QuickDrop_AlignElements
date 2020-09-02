@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-18 23:43:15" Modified_Date="2020-05-14 16:51:19" Creator="Martin" Comments="" ID="aff5696b9c603f41efd5057e20428542">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-18 23:43:15" Modified_Date="2020-09-02 22:01:15" Creator="Martin" Comments="" ID="ab1b3b170c2d11a75f68700c5f09214a">
   <Library_General_Settings>
     <Package_File_Name>MNProjects_lib_QuickDrop_AlignElements</Package_File_Name>
-    <Library_Version>1.0.2.3</Library_Version>
+    <Library_Version>1.1.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>build</Library_Output_Folder>
@@ -71,12 +71,25 @@ After selecting some elements open the Quick Drop dialog by pressing CTRL+SPACE.
 On the homepage https://github.com/matrixx567/LabView_QuickDrop_AlignElements you will find animated screenshots that show the different possibilities to act with this QuickDrop plug-in.
 
 On of my favorites is to open the Quick Drop with CTRL+SPACE. Then insert AQ into the combo box and press CTRL+A. This will align the elements to the left and distribute it with an equal vertical gap. I use this to arrange the VI input and output elements on the blockdiagram.
+
+Numeric controls on the frontpanel
+---------------------------------------------------
+Like the original plug-in the increment and decrement buttons of a numeric control will be hidden during alignment (based on [this idea exchange](https://forums.ni.com/t5/LabVIEW-Idea-Exchange/Align-objects-should-not-align-increment-decrement-buttons/idi-p/1050356?profile.language=en)).
+
+By default this behavior is activated. It is possible to deactivate it in the LabVIEW.ini.
+
+Quick Drop Options
+---------------------------------------------------
+
+You can control certain aspects of operation of this plug-in by setting the following LabVIEW.ini tokens:
+
+QDAlignElements.HideIncDec (Default: True):  Hide Inc/Dec buttons of Numeric Controls during alignment. 
 </Description>
       <Copyright/>
       <Packager>Martin Nöhrer</Packager>
       <URL>https://github.com/matrixx567/LabView_QuickDrop_AlignElements</URL>
-      <Release_Notes>Change error handling for undo operation
-Add link to help</Release_Notes>
+      <Release_Notes>Add LVConfig option for disable hiding of IncDec during alignment.
+Fix bug that enables all available IncDec after alignment.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
