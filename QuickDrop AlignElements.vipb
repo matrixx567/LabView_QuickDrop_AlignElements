@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-18 23:43:15" Modified_Date="2022-03-07 12:11:43" Creator="Martin" Comments="" ID="92edcf989f1211606ebfc9abe7f228ca">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-18 23:43:15" Modified_Date="2022-03-07 15:22:29" Creator="Martin" Comments="" ID="7cef78e59cb99c5d096df9f861415efd">
   <Library_General_Settings>
     <Package_File_Name>MNProjects_lib_QuickDrop_AlignElements</Package_File_Name>
-    <Library_Version>1.2.0.4</Library_Version>
+    <Library_Version>1.2.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>build</Library_Output_Folder>
@@ -88,7 +88,8 @@ QDAlignElements.HideIncDec (Default: True):  Hide Inc/Dec buttons of Numeric Con
       <Copyright/>
       <Packager>Martin Nöhrer</Packager>
       <URL>https://github.com/matrixx567/LabView_QuickDrop_AlignElements</URL>
-      <Release_Notes>Fix LabView crashes if the plug-in is used on a typedef or control.</Release_Notes>
+      <Release_Notes>Fix LabView crashes if the plug-in is used on a typedef or control.
+Add shortcut labels to the buttons.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
