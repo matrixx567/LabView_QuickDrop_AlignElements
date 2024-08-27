@@ -71,15 +71,22 @@ Like the original plug-in the increment and decrement buttons of a numeric contr
 
 By default this behavior is activated. It is possible to deactivate it in the LabVIEW.ini.
 
+## Position of the Window
+
+Usually the positon of the Quick Drop window will be placed next to the current mouse position. On a MAC computer this won't be able because the `Input Device Control palette` isn't available. For that the Quick Drop window will be placed with an offset to the current FP/BD window. This offset can be
+configured using the `LabVIEW.ini`. 
+
 ## Quick Drop Options
 
 You can control certain aspects of operation of this plug-in by setting the following LabVIEW.ini tokens:
 
-| Token                          | Default Value      | Description                                                |
-| ------------------------------ | ------------------ | ---------------------------------------------------------- |
-| QDAlignElements.HideIncDec     | True               | Hide Inc/Dec buttons of Numeric Controls during alignment. | 
+| Token                                | Default Value      | Description                                                |
+| ------------------------------------ | ------------------ | ---------------------------------------------------------- |
+| QDAlignElements.HideIncDec           | True               | Hide Inc/Dec buttons of Numeric Controls during alignment. | 
+| QDAlignElements.MacWinPosOffsetX     | 200                | Hide Inc/Dec buttons of Numeric Controls during alignment. | 
+| QDAlignElements.MacWinPosOffsetY     | 200                | Hide Inc/Dec buttons of Numeric Controls during alignment. | 
 
 
 ## Hints
 
-The plug-in is developed with LabVIEW 2017.
+The plug-in is developed with LabVIEW 2020.
