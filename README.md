@@ -83,8 +83,8 @@ You can control certain aspects of operation of this plug-in by setting the foll
 | Token                                | Default Value      | Description                                                |
 | ------------------------------------ | ------------------ | ---------------------------------------------------------- |
 | QDAlignElements.HideIncDec           | True               | Hide Inc/Dec buttons of Numeric Controls during alignment. | 
-| QDAlignElements.MacWinPosOffsetX     | 200                | Hide Inc/Dec buttons of Numeric Controls during alignment. | 
-| QDAlignElements.MacWinPosOffsetY     | 200                | Hide Inc/Dec buttons of Numeric Controls during alignment. | 
+| QDAlignElements.MacWinPosOffsetX     | 200                | Horizontal Offset of QuickDrop Window on MAC.              | 
+| QDAlignElements.MacWinPosOffsetY     | 200                | Vertical Offset of QuickDrop Window on MAC.                | 
 
 
 ## Hints
