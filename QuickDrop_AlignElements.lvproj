@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SaveVersion" Type="Str">17.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
@@ -74,7 +74,6 @@
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
-				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 			</Item>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="LV Config Read.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read.vi"/>
@@ -94,7 +93,7 @@
 				<Property Name="DestinationName[0]" Type="Str">Destination Directory</Property>
 				<Property Name="IncludedItemCount" Type="Int">1</Property>
 				<Property Name="IncludedItems[0]" Type="Ref">/My Computer/Align Elements.lvlib</Property>
-				<Property Name="IncludedItems[1]" Type="Ref">/</Property>
+				<Property Name="IncludedItems[1]" Type="Ref"></Property>
 				<Property Name="IncludeProject" Type="Bool">false</Property>
 				<Property Name="Path[0]" Type="Path">../build/QuickDrop_AlignElements.zip</Property>
 				<Property Name="ZipBase" Type="Str">NI_zipbasevirtual</Property>
