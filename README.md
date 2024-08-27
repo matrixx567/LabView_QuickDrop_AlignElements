@@ -1,5 +1,7 @@
 # LabView QuickDrop AlignElements
 
+[![Image](https://www.vipm.io/package/mnprojects_lib_quickdrop_alignelements/badge.svg?metric=installs)](https://www.vipm.io/package/mnprojects_lib_quickdrop_alignelements/) [![Image](https://www.vipm.io/package/mnprojects_lib_quickdrop_alignelements/badge.svg?metric=stars)](https://www.vipm.io/package/mnprojects_lib_quickdrop_alignelements/)
+
 A LabVIEW Quick-Drop (QD) plug-in for aligning and distributing elements on afrontpanel or blockdiagram.
 
 This plug-in is based on the existing [Align & Compress BD/FP Objects](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Plugin-Align-Compress-BD-FP-Objects/gpm-p/3501021?profile.language=en) plug-in. The plug-in is completely refactored and changes the handling and the keymap of the original plug-in.
