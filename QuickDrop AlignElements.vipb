@@ -59,6 +59,9 @@ C: Horizontal Center
 V: Vertical Center
 Q: Vertical Gap
 E: Horizontal Gap
+F: Vertical Compress
+G: Horizontal Compress
+
 After pressing a key for alignment the panel will immediatelly be closed.
 
 If you move the mouse pointer over one of the buttons you will see the shortcuts for each operation. (Only some of the distribution elements can be controlled by key.)
