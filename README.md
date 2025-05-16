@@ -46,6 +46,8 @@ After selecting some elements press `CTRL+SPACE` and `CTRL+A` to open the dialog
 * `V`: Vertical Center
 * `Q`: Vertical Gap
 * `E`: Horizontal Gap
+* `F`: Vertical Compress
+* `G`: Horizontal Compress
 
 After pressing a key for alignment the panel will immediatelly be closed.
 
