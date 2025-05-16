@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-18 23:43:15" Modified_Date="2024-08-27 16:47:52" Creator="Martin" Comments="" ID="e61df61628611b4537179cce69099b71">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-18 23:43:15" Modified_Date="2025-05-16 11:11:35" Creator="Martin" Comments="" ID="a5dce5747266e58ed8935aee4bed0600">
   <Library_General_Settings>
     <Package_File_Name>MNProjects_lib_QuickDrop_AlignElements</Package_File_Name>
-    <Library_Version>1.3.0.7</Library_Version>
+    <Library_Version>1.4.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>build</Library_Output_Folder>
@@ -99,7 +99,7 @@ QDAlignElements.MacWinPosOffsetY (Default: 200): Vertical Offset of QuickDrop Wi
       <Copyright/>
       <Packager>Martin Nöhrer</Packager>
       <URL>https://github.com/matrixx567/LabView_QuickDrop_AlignElements</URL>
-      <Release_Notes>Fix Window Position on a MAC that can't use the current mouse position</Release_Notes>
+      <Release_Notes>Add Shortcuts for vertical and horizontal compress</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
