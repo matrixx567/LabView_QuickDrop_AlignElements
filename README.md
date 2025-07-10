@@ -1,4 +1,4 @@
-# LabView QuickDrop AlignElements
+# LabVIEW QuickDrop AlignElements
 
 [![Image](https://www.vipm.io/package/mnprojects_lib_quickdrop_alignelements/badge.svg?metric=installs)](https://www.vipm.io/package/mnprojects_lib_quickdrop_alignelements/) [![Image](https://www.vipm.io/package/mnprojects_lib_quickdrop_alignelements/badge.svg?metric=stars)](https://www.vipm.io/package/mnprojects_lib_quickdrop_alignelements/)
 
