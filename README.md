@@ -12,9 +12,12 @@ This plug-in is based on the existing [Align & Compress BD/FP Objects](https://f
 
 The design idea behind the usage of the plug-in is to simply handle the alignment using the left hand on the keyboard and the WSAD keys. Therefore you will be very fast to organize your elements on the VI.
 
+**Links / Tutorials**  
+https://kreiseder.org/2025/07/quickdrop-alignelements-labview
+
 ## Installation
 
-The plug-in is published as a VIPM Community package. Search for `QuickDrop AlignElements` in the VI Package Manager and install it easily. Otherwise you can download the VIP package from the Release page and install it manually.
+The plug-in is published as a [VIPM Community package](https://www.vipm.io/package/mnprojects_lib_quickdrop_alignelements/). Search for `QuickDrop AlignElements` in the VI Package Manager and install it easily. Otherwise you can download the VIP package from the Release page and install it manually.
 
 ## Usage
 
@@ -94,3 +97,4 @@ You can control certain aspects of operation of this plug-in by setting the foll
 ## Hints
 
 The plug-in is developed with LabVIEW 2020.
+
